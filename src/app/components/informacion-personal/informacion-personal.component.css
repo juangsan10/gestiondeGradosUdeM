@@ -1,0 +1,23 @@
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 50%;
+  }
+  .example-viewport {
+  height: auto;
+  width: auto;
+  border: 1px solid black;
+}
+
+.example-item {
+  height: auto;
+}
+.buttonudem{
+    background: #BA0F17;
+    color: white;
+    display: inline-block;
+}

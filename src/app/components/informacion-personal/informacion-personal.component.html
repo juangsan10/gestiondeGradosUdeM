@@ -1,0 +1,80 @@
+
+<mat-form-field>
+  <mat-label>Tipo de documento</mat-label>
+  <select matNativeControl required>
+    <option value="Cedula de ciudadanía">Cedula de ciudadanía</option>
+    <option value="Tarjeta de identidad">Tarjeta de identidad</option>
+    <option value="Cedula de extrangería">Cedula de extrangería</option>
+    <option value="Pasaporte">Pasaporte</option>
+  </select>
+</mat-form-field>
+
+<form class="example-form">
+  <mat-form-field class="example-full-width">
+    <input matInput placeholder="Documento">
+  </mat-form-field>
+</form>
+<form class="example-form">
+  <mat-form-field class="example-full-width">
+    <input matInput placeholder="Nombre completo">
+  </mat-form-field>
+</form>
+<form class="example-form">
+  <mat-form-field class="example-full-width">
+    <input matInput placeholder="Primer apellido">
+  </mat-form-field>
+</form>
+<mat-form-field>
+  <mat-label>Genero</mat-label>
+  <select matNativeControl required>
+    <option value="Masculino">Masculino</option>
+    <option value="Femenino">Femenino</option>
+  </select>
+</mat-form-field>
+<br>
+<mat-form-field>
+  <input matInput [matDatepicker]="picker" placeholder="Fecha de nacimiento">
+  <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+  <mat-datepicker #picker></mat-datepicker>
+</mat-form-field>
+<form class="example-form">
+  <mat-form-field class="example-full-width">
+    <input matInput placeholder="Pais de nacimiento">
+  </mat-form-field>
+</form>
+<form class="example-form">
+  <mat-form-field class="example-full-width">
+    <input matInput placeholder="Departamento de nacimiento">
+  </mat-form-field>
+</form>
+<form class="example-form">
+  <mat-form-field class="example-full-width">
+    <input matInput placeholder="Ciudad de nacimiento">
+  </mat-form-field>
+</form>
+<mat-form-field>
+  <mat-label>Estado civil</mat-label>
+  <select matNativeControl required>
+    <option value="Soltero">Soltero/a</option>
+    <option value="Casado">Casado/a</option>
+  </select>
+</mat-form-field>
+<br>
+<mat-form-field>
+  <mat-label>Nivel de Estudios</mat-label>
+  <select matNativeControl required>
+    <option value="Profesional">Profesional</option>
+    <option value="Especialista">Especialista</option>
+    <option value="Magister">Magister</option>
+    <option value="Doctorado">Doctorado</option>
+  </select>
+</mat-form-field>
+<div>
+  <button mat-button matStepperPrevious class="btn btn-light">Cancelar</button>
+  &nbsp;
+  <button mat-button matStepperNext class="buttonudem">Siguiente</button>
+</div>
+<br>
+<div>
+  <p>Sigue: actualizar datos ubicacion</p>
+</div>
